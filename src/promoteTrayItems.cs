@@ -33,8 +33,7 @@ public class Startup
 }
 
 /**
-// TODO(jeff): Document specific commit.
- * The below is copied from https://github.com/Squirrel/Squirrel.Windows/blob/master/src/Squirrel/TrayHelper.cs
+ * The below is copied from https://github.com/Squirrel/Squirrel.Windows/blob/a95b9853e650c2bc3e0239c6739d0363f55d20bc/src/Squirrel/TrayHelper.cs
  * except for that:
  *  - it has been pared down to only what was necessary to support `TrayStateChanger.PromoteTrayItem`
  *    (here renamed to "...Items" to more accurately reflect its effects), and
