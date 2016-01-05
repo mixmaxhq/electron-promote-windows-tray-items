@@ -5,7 +5,7 @@ Promotes Windows tray items created by the app from the toolbar customization ar
 May be safely required on non-Windows platforms, though the package will return an error if it is attempted to be used on non-Windows platforms.
 
 This project is currently compatible with Electron 0.36.2 due to its dependence on
-[electron-edge](https://github.com/kexplo/electron-edge#electron-edge).
+[electron-edge][electron-edge].
 
 ## Installation
 
@@ -47,4 +47,5 @@ Copyright 2016 Mixmax, Inc., licensed under the MIT License.
 Some portions derived from [Squirrel.Windows][Squirrel.Windows], copyright 2012-2016 GitHub, Inc.,
 licensed under the MIT License.
 
+[electron-edge]: https://github.com/kexplo/electron-edge#electron-edge
 [Squirrel.Windows]: https://github.com/Squirrel/Squirrel.Windows
