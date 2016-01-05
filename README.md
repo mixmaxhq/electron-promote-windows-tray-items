@@ -40,6 +40,11 @@ We welcome pull requests! Please lint your code.
 
 * 1.0.0 Initial release.
 
-## License
+## Copyright and License
 
-// TODO(jeff): Fill this out and acknowledge `Squirrel.Windows`.
+Copyright 2016 Mixmax, Inc., licensed under the MIT License.
+
+Some portions derived from [Squirrel.Windows][Squirrel.Windows], copyright 2012-2016 GitHub, Inc.,
+licensed under the MIT License.
+
+[Squirrel.Windows]: https://github.com/Squirrel/Squirrel.Windows
