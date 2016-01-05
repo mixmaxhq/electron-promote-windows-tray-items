@@ -55,9 +55,10 @@ if (process.platform === 'win32') {
 
 We welcome pull requests! Please lint your code.
 
-## Release History
+## Credits
 
-* 1.0.0 Initial release.
+Created by [Jeff Wear][Jeff Wear], with the core C# logic used by this module
+[originally developed][original PR] by [Paul Betts][Paul Betts].
 
 ## Copyright and License
 
@@ -69,4 +70,11 @@ licensed under the MIT License.
 [tray item]: https://github.com/atom/electron/blob/master/docs/api/tray.md
 [different icons]: https://github.com/atom/electron/issues/3970
 [electron-edge]: https://github.com/kexplo/electron-edge#electron-edge
+[Jeff Wear]: https://github.com/wearhere
+[original PR]: https://github.com/Squirrel/Squirrel.Windows/pull/447
+[Paul Betts]: https://github.com/paulcbetts
 [Squirrel.Windows]: https://github.com/Squirrel/Squirrel.Windows
+
+## Release History
+
+* 1.0.0 Initial release.
