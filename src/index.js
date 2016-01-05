@@ -13,7 +13,7 @@ var path = require('path');
  * @param {function<Error>} done - The callback to invoke when promotion has succeeded or failed.
  */
 var promoteWindowsTrayItems = function(done) {
-  if (process.platform !== 'win32') {
+  if (!IS_WIN) {
     process.nextTick(function() {
       done(new Error('promoteWindowsTrayItems is not available on non-Windows platforms.'));
     });
