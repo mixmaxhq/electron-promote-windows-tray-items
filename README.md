@@ -42,9 +42,9 @@ var promoteWindowsTrayItems = require('electron-promote-windows-tray-items');
 // Create a tray item.
 var icon = new Tray(/* ... */);
 
-// Icon will now be in the toolbar customization area without the user explicitly toggling it to show in the toolbar.
-
 if (process.platform === 'win32') {
+  // Icon will now be in the toolbar customization area without the user explicitly toggling it to show in the toolbar.
+
   promoteWindowsTrayItems(function(err) {
     // Icon will now be in the toolbar itself unless the user explicitly hid it from the toolbar.
   });
