@@ -77,4 +77,5 @@ licensed under the MIT License.
 
 ## Release History
 
+* 1.0.1 README fixes
 * 1.0.0 Initial release.
