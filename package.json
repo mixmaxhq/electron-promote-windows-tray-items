@@ -1,7 +1,7 @@
 {
   "name": "electron-promote-windows-tray-items",
   "version": "1.0.0",
-  "description": "Promotes Windows tray items created by an Electron app from the toolbar customization area to the toolbar itself.",
+  "description": "Ensure Windows tray items created by an Electron app show up in the toolbar, not the customization area.",
   "main": "src/index.js",
   "dependencies": {
     "electron-edge": "^5.0.1-pre"
