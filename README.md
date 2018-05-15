@@ -31,7 +31,7 @@ This project is currently compatible with Electron 0.36.2 due to its dependence 
 For Electron:
 
 ```js
-yarn add electron-promote-windows-tray-items
+npm install electron-promote-windows-tray-items
 ```
 or
 ```js
